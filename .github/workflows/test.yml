@@ -1,0 +1,13 @@
+name: automerge
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [main]
+
+jobs:
+  pull_request:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo
